@@ -1,39 +1,4 @@
 <!DOCTYPE html>
-.column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.publication-links {
-  display: flex;
-  gap: 10px; /* Adjust the spacing between buttons */
-}
-
-.link-block {
-  display: inline-flex;
-  align-items: center;
-}
-
-.external-link {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
-  text-decoration: none;
-  border-radius: 50px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.external-link:hover {
-  background-color: #444;
-}
-
-.external-link i {
-  margin-right: 10px;
-}
 <html>
 <head>
   <meta charset="utf-8">
@@ -124,33 +89,44 @@
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-                      <div class="column has-text-centered">
-                        <div class="publication-links">
-                          <!-- Arxiv PDF link -->
-                          <span class="link-block">
-                            <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank" class="external-link">
-                              <i class="fas fa-file-pdf"></i>
-                              Paper
-                            </a>
-                          </span>
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                    <span class="link-block">
+                     <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                       class="external-link button is-normal is-rounded is-black" 
+                       style="color: white;">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
                       
-                          <!-- Example link -->
-                          <span class="link-block">
-                            <a href="https://wikiautogen.github.io/WikiAutoGen/" target="_blank" class="external-link">
-                              <i class="fa fa-book"></i>
-                              Example
-                            </a>
-                          </span>
+                  <!-- Example link -->
+                   <span class="link-block">
+                        <a href="https://wikiautogen.github.io/WikiAutoGen/" target="_blank"
+                       class="external-link button is-normal is-rounded is-black" 
+                       style="color: white;">
+                      <span class="icon">
+                      <i class="fa fa-book"></i>
+                    </span>
+                    <span>Example</span>
+                  </a>
+                </span>
+
                       
-                          <!-- Github link -->
-                          <span class="link-block">
-                            <a href="https://github.com/YOUR REPO HERE" target="_blank" class="external-link">
-                              <i class="fab fa-github"></i>
-                              Code
-                            </a>
-                          </span>
-                        </div>
-                      </div>
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                       class="external-link button is-normal is-rounded is-black" 
+                       style="color: white;">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
                       
                       
                   <span>arXiv</span>
